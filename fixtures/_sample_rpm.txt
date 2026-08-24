@@ -1,0 +1,13 @@
+SYNTHETIC FIXTURE — not real CMS guidance. For smoke-testing the pipeline only.
+
+Remote Physiologic Monitoring (RPM) — Coverage Summary
+
+Eligible devices. RPM services require the use of a medical device as defined by the FDA. The device must digitally collect and automatically transmit physiologic data (for example, weight, blood pressure, pulse oximetry, or respiratory flow rate). Patient self-reported data entered manually does not satisfy the device requirement.
+
+Data collection threshold. To bill CPT code 99454 (device supply with daily recordings or programmed alerts), the device must collect data on at least 16 days within a 30-day period. If fewer than 16 days of data are collected, 99454 may not be billed for that period.
+
+Who may furnish RPM. RPM services must be ordered and furnished under the direction of a physician or other qualified health care professional. Clinical staff may provide certain monitoring and management services incident to the billing practitioner's services, subject to applicable supervision rules.
+
+Establishing the patient relationship. RPM may be furnished to both new and established patients. The ordering practitioner must obtain patient consent before initiating services, and the consent must be documented in the medical record.
+
+Treatment management. CPT codes 99457 and 99458 cover treatment management services requiring interactive communication with the patient or caregiver during the calendar month, billed in increments of the first 20 minutes and each additional 20 minutes.

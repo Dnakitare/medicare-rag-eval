@@ -1,0 +1,98 @@
+[
+  {
+    "query": "What criteria must equipment meet to be considered durable medical equipment?",
+    "expect_answer": "withstand repeated use",
+    "correct": false,
+    "answer": "Durable medical equipment must be prescribed by a healthcare provider, used in the home or other non-acute care setting, and have a long lifespan (typically reusable and capable of being used over many years)."
+  },
+  {
+    "query": "Does durable medical equipment have to serve a medical purpose?",
+    "expect_answer": "medical purpose",
+    "correct": true,
+    "answer": "Yes, durable medical equipment must serve a medical purpose."
+  },
+  {
+    "query": "Is equipment useful to someone in the absence of illness considered DME?",
+    "expect_answer": "illness or injury",
+    "correct": false,
+    "answer": "No, equipment useful in the absence of illness is generally not considered durable medical equipment (DME). DME typically refers to reusable medical devices used under the supervision of a healthcare provider for an extended period."
+  },
+  {
+    "query": "Where must durable medical equipment be appropriate for use to be covered?",
+    "expect_answer": "home",
+    "correct": true,
+    "answer": "Durable medical equipment must be appropriate for use in a home or other setting as directed by a healthcare provider to be covered under most insurance plans."
+  },
+  {
+    "query": "Do all parts of the durable medical equipment definition have to be satisfied?",
+    "expect_answer": "all requirements",
+    "correct": false,
+    "answer": "Yes, all parts of the durable medical equipment definition typically need to be satisfied for an item to be classified as such."
+  },
+  {
+    "query": "Do coverage rules address replacement of prosthetic devices?",
+    "expect_answer": "prosthetic",
+    "correct": true,
+    "answer": "Coverage rules may address replacement of prosthetic devices, but specific policies vary by insurance provider. It's best to check your plan's documentation or contact the insurer directly for details."
+  },
+  {
+    "query": "Does Medicare address service contracts for durable medical equipment?",
+    "expect_answer": "service contracts",
+    "correct": true,
+    "answer": "Medicare does not typically cover service contracts for durable medical equipment, but it may cover the equipment itself under certain conditions."
+  },
+  {
+    "query": "After how many months of continuous rental does ownership of capped rental equipment pass to the beneficiary?",
+    "expect_answer": "13 months",
+    "correct": false,
+    "answer": "The passage of ownership for capped rental equipment typically occurs after 36 months of continuous rental, but this can vary depending on the specific lease agreement."
+  },
+  {
+    "query": "Until when do MACs pay for this equipment on a rental basis?",
+    "expect_answer": "medical necessity ends",
+    "correct": false,
+    "answer": "The information provided does not specify an end date for MACs paying for equipment on a rental basis. More context or details are needed to provide an accurate answer."
+  },
+  {
+    "query": "When is an Advance Beneficiary Notification required for an upgrade?",
+    "expect_answer": "ABN",
+    "correct": true,
+    "answer": "An Advance Beneficiary Notification (ABN) is required when a patient is expected to incur charges for services that Medicare does not cover, including certain upgrades, and the patient signs the ABN form acknowledging they will be responsible for payment."
+  },
+  {
+    "query": "What form documents medical necessity for certain DMEPOS items?",
+    "expect_answer": "Certificate of Medical Necessity",
+    "correct": false,
+    "answer": "A physician's order or prescription is used to document medical necessity for certain DMEPOS items."
+  },
+  {
+    "query": "What is an originating site in Medicare telehealth?",
+    "expect_answer": "location",
+    "correct": true,
+    "answer": "An originating site in Medicare telehealth is the location where the patient is physically present during a remote telehealth encounter, typically a clinic, hospital, or home health agency."
+  },
+  {
+    "query": "What does remote physiological monitoring involve?",
+    "expect_answer": "physiologic",
+    "correct": true,
+    "answer": "Remote physiological monitoring involves the continuous or periodic collection of a patient's physiological data, such as heart rate, blood pressure, and respiratory rate, from a location away from the traditional healthcare setting using wearable devices or sensors, which transmit the data to healthcare providers for analysis."
+  },
+  {
+    "query": "Can a distant site provider use audio-only technology for telehealth?",
+    "expect_answer": "audio-only",
+    "correct": true,
+    "answer": "Yes, a distant site provider can use audio-only technology for telehealth, though video is generally preferred for better patient-provider interaction."
+  },
+  {
+    "query": "What does RTM stand for in remote monitoring?",
+    "expect_answer": "RTM",
+    "correct": true,
+    "answer": "RTM in remote monitoring stands for Remote Technical Monitoring."
+  },
+  {
+    "query": "Which providers are eligible to bill Medicare for telehealth services?",
+    "expect_answer": "Physicians",
+    "correct": true,
+    "answer": "Providers eligible to bill Medicare for telehealth services include physicians, nurse practitioners, clinical nurse specialists, physician assistants, certified registered nurse anesthetists, and clinical social workers, among others, as specified by Medicare regulations."
+  }
+]

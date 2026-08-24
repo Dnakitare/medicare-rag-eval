@@ -1,0 +1,98 @@
+{
+  "in_scope": [
+    [
+      "What criteria must equipment meet to be considered durable medical equipment?",
+      0.9978007674217224
+    ],
+    [
+      "Does durable medical equipment have to serve a medical purpose?",
+      0.9979085922241211
+    ],
+    [
+      "Is equipment useful to someone in the absence of illness considered DME?",
+      0.9955716133117676
+    ],
+    [
+      "Where must durable medical equipment be appropriate for use to be covered?",
+      0.9783410429954529
+    ],
+    [
+      "Do all parts of the durable medical equipment definition have to be satisfied?",
+      0.9146618247032166
+    ],
+    [
+      "Do coverage rules address replacement of prosthetic devices?",
+      0.9471564888954163
+    ],
+    [
+      "Does Medicare address service contracts for durable medical equipment?",
+      0.3992288112640381
+    ],
+    [
+      "After how many months of continuous rental does ownership of capped rental equipment pass to the beneficiary?",
+      0.9989988207817078
+    ],
+    [
+      "Until when do MACs pay for this equipment on a rental basis?",
+      0.9834169149398804
+    ],
+    [
+      "When is an Advance Beneficiary Notification required for an upgrade?",
+      0.15427544713020325
+    ],
+    [
+      "What form documents medical necessity for certain DMEPOS items?",
+      0.9959574341773987
+    ],
+    [
+      "What is an originating site in Medicare telehealth?",
+      0.9930785298347473
+    ],
+    [
+      "What does remote physiological monitoring involve?",
+      0.9927224516868591
+    ],
+    [
+      "Can a distant site provider use audio-only technology for telehealth?",
+      0.999086856842041
+    ],
+    [
+      "What does RTM stand for in remote monitoring?",
+      0.9812538027763367
+    ],
+    [
+      "Which providers are eligible to bill Medicare for telehealth services?",
+      0.9995477795600891
+    ]
+  ],
+  "oos": [
+    [
+      "What is the Medicare Part D late enrollment penalty?",
+      0.20875845849514008
+    ],
+    [
+      "When is the annual Medicare open enrollment period?",
+      0.01651657000184059
+    ],
+    [
+      "Is bariatric surgery covered by Medicare?",
+      0.9159523844718933
+    ],
+    [
+      "How much does it cost to rent a hospital bed per month in dollars?",
+      0.018185673281550407
+    ],
+    [
+      "What is the specific dollar reimbursement rate for a telehealth visit?",
+      0.024638187140226364
+    ],
+    [
+      "Does Medicare Part D cover insulin?",
+      0.6650106310844421
+    ],
+    [
+      "What is the capital of France?",
+      0.0012052595848217607
+    ]
+  ]
+}

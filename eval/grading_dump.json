@@ -1,0 +1,441 @@
+[
+  {
+    "kind": "in_scope",
+    "idx": 1,
+    "query": "What criteria must equipment meet to be considered durable medical equipment?",
+    "expect_answer": "withstand repeated use",
+    "expect_substring": "withstand repeated use",
+    "answer_found": true,
+    "answer": "Equipment must meet the following criteria to be considered durable medical equipment: it can withstand repeated use; is primarily and customarily used to serve a medical purpose; generally is not useful to a person in the absence of an illness or injury; and is appropriate for use in the home.",
+    "quote": "",
+    "cited": [
+      {
+        "n": 1,
+        "source": "cms_bp102c15_benefit-policy-ch15.pdf",
+        "text": "110.1 - Definition of Durable Medical Equipment (Rev. 10880, Issued: 08- 06-21, Effective: 11 -08-21, Implementation: 11- 08-21) Durable medical equipment is equipment which: \u2022 Can withstand repeated use; \u2022 Is primarily and customarily used to serve a medical purpose; \u2022 Generally is not useful to a person in the absence of an illness or injury; and \u2022 Is appropriate for use in the home. All requirements of the definition must be met before an item can be considered to be durable medical equipment. The following describes the underlying policies for determining whether an item meets the definition of DME and may be covered. A. Durability An item is considered durable if it can withstand repeated use, i.e., the type of item that could normally be rented. Medical supplies of an expendable nature, such as incontinent pads, lambs wool pads, catheters, ace bandages, elastic stockings, surgical "
+      }
+    ],
+    "top_rerank": 0.9978,
+    "metric_correct": true
+  },
+  {
+    "kind": "in_scope",
+    "idx": 2,
+    "query": "Does durable medical equipment have to serve a medical purpose?",
+    "expect_answer": "medical purpose",
+    "expect_substring": "primarily and customarily used to serve a medical purpose",
+    "answer_found": true,
+    "answer": "Durable medical equipment is primarily and customarily used to serve a medical purpose.",
+    "quote": "",
+    "cited": [
+      {
+        "n": 1,
+        "source": "cms_bp102c15_benefit-policy-ch15.pdf",
+        "text": "110.1 - Definition of Durable Medical Equipment (Rev. 10880, Issued: 08- 06-21, Effective: 11 -08-21, Implementation: 11- 08-21) Durable medical equipment is equipment which: \u2022 Can withstand repeated use; \u2022 Is primarily and customarily used to serve a medical purpose; \u2022 Generally is not useful to a person in the absence of an illness or injury; and \u2022 Is appropriate for use in the home. All requirements of the definition must be met before an item can be considered to be durable medical equipment. The following describes the underlying policies for determining whether an item meets the definition of DME and may be covered. A. Durability An item is considered durable if it can withstand repeated use, i.e., the type of item that could normally be rented. Medical supplies of an expendable nature, such as incontinent pads, lambs wool pads, catheters, ace bandages, elastic stockings, surgical "
+      },
+      {
+        "n": 2,
+        "source": "cms_bp102c15_benefit-policy-ch15.pdf",
+        "text": "definition. There are other items that, although durable in nature, may fall into other coverage categories such as supplies, braces, prosthetic devices, artificial arms, legs, and eyes. B. Medical Equipment Medical equipment is equipment primarily and customarily used for medical purposes and is not generally useful in the absence of illness or injury. In most instances, no development will be needed to determine whether a specific item of equipment is medic al in nature. However, some cases will require development to determine whether the item constitutes medical equipment. This development would include the advice of local medical organizations (hospitals, medical schools, medical societies) and specialis ts in the field of physical medicine and rehabilitation. If the equipment is new on the market, it may be necessary, prior to seeking professional advice, to obtain information from"
+      },
+      {
+        "n": 5,
+        "source": "cms_clm104c20_claims-ch20-dmepos.pdf",
+        "text": "10.1 - Definitions (Rev. 1, 10- 01-03) A3-3313.1, B3- 2100.1, HHA -220.1, HO -235.1, SNF -264.1 10.1.1 - Durable Medical Equipment (DME) (Rev. 1, 10- 01-03) DME is covered under Part B as a medical or other health service (\u00a71861(s)(6) of the Social Security Act [the Act]) and is equipment that: a. Can withstand repeated use; b. Is primarily and customarily used to serve a medical purpose; c. Generally is not useful to a person in the absence of an illness or injury; and d. Is appropriate for use in the home. All requirements of the definition must be met before an item can be considered to be durable medical equipment. A SNF normally is not considered a beneficiary's home. However, a SNF can be considered a beneficiary's home for Method II home dialysis purposes. See the Program Integrity Manual, Chapter 5, for guidelines on when a SNF may be considered a home. For detailed coverage requ"
+      }
+    ],
+    "top_rerank": 0.9979,
+    "metric_correct": true
+  },
+  {
+    "kind": "in_scope",
+    "idx": 3,
+    "query": "Is equipment useful to someone in the absence of illness considered DME?",
+    "expect_answer": "illness or injury",
+    "expect_substring": "not useful to a person in the absence of an illness or injury",
+    "answer_found": true,
+    "answer": "No, equipment useful to someone in the absence of illness is not considered DME.",
+    "quote": "",
+    "cited": [
+      {
+        "n": 1,
+        "source": "cms_bp102c15_benefit-policy-ch15.pdf",
+        "text": "110.1 - Definition of Durable Medical Equipment (Rev. 10880, Issued: 08- 06-21, Effective: 11 -08-21, Implementation: 11- 08-21) Durable medical equipment is equipment which: \u2022 Can withstand repeated use; \u2022 Is primarily and customarily used to serve a medical purpose; \u2022 Generally is not useful to a person in the absence of an illness or injury; and \u2022 Is appropriate for use in the home. All requirements of the definition must be met before an item can be considered to be durable medical equipment. The following describes the underlying policies for determining whether an item meets the definition of DME and may be covered. A. Durability An item is considered durable if it can withstand repeated use, i.e., the type of item that could normally be rented. Medical supplies of an expendable nature, such as incontinent pads, lambs wool pads, catheters, ace bandages, elastic stockings, surgical "
+      }
+    ],
+    "top_rerank": 0.9956,
+    "metric_correct": false
+  },
+  {
+    "kind": "in_scope",
+    "idx": 4,
+    "query": "Where must durable medical equipment be appropriate for use to be covered?",
+    "expect_answer": "home",
+    "expect_substring": "appropriate for use in the home",
+    "answer_found": true,
+    "answer": "Durable medical equipment must be appropriate for use in the home to be covered.",
+    "quote": "",
+    "cited": [
+      {
+        "n": 1,
+        "source": "cms_bp102c15_benefit-policy-ch15.pdf",
+        "text": "110.1 - Definition of Durable Medical Equipment (Rev. 10880, Issued: 08- 06-21, Effective: 11 -08-21, Implementation: 11- 08-21) Durable medical equipment is equipment which: \u2022 Can withstand repeated use; \u2022 Is primarily and customarily used to serve a medical purpose; \u2022 Generally is not useful to a person in the absence of an illness or injury; and \u2022 Is appropriate for use in the home. All requirements of the definition must be met before an item can be considered to be durable medical equipment. The following describes the underlying policies for determining whether an item meets the definition of DME and may be covered. A. Durability An item is considered durable if it can withstand repeated use, i.e., the type of item that could normally be rented. Medical supplies of an expendable nature, such as incontinent pads, lambs wool pads, catheters, ace bandages, elastic stockings, surgical "
+      },
+      {
+        "n": 5,
+        "source": "cms_bp102c15_benefit-policy-ch15.pdf",
+        "text": "110 - Durable Medical Equipment - General (Rev. 1, 10- 01-03) B3-2100, A3- 3113, HO -235, HHA -220 Expenses incurred by a beneficiary for the rental or purchases of durable medical equipment (DME) are reimbursable if the following three requirements are met: \u2022 The equipment meets the definition of DME (\u00a7110.1); \u2022 The equipment is necessary and reasonable for the treatment of the patient\u2019s illness or injury or to improve the functioning of his or her malformed body member (\u00a7110.1); and \u2022 The equipment is used in the patient\u2019s home. The decision whether to rent or purchase an item of equipment generally resides with the beneficiary, but the decision on how to pay rests with CMS. For some DME, program payment policy calls for lump sum payments and in others for periodic payment. Wher e covered DME is furnished to a beneficiary by a supplier of services other than a provider of services, the"
+      }
+    ],
+    "top_rerank": 0.9783,
+    "metric_correct": true
+  },
+  {
+    "kind": "in_scope",
+    "idx": 5,
+    "query": "Do all parts of the durable medical equipment definition have to be satisfied?",
+    "expect_answer": "all requirements",
+    "expect_substring": "All requirements of the definition must be met",
+    "answer_found": true,
+    "answer": "All parts of the durable medical equipment definition have to be satisfied.",
+    "quote": "",
+    "cited": [
+      {
+        "n": 1,
+        "source": "cms_bp102c15_benefit-policy-ch15.pdf",
+        "text": "110.1 - Definition of Durable Medical Equipment (Rev. 10880, Issued: 08- 06-21, Effective: 11 -08-21, Implementation: 11- 08-21) Durable medical equipment is equipment which: \u2022 Can withstand repeated use; \u2022 Is primarily and customarily used to serve a medical purpose; \u2022 Generally is not useful to a person in the absence of an illness or injury; and \u2022 Is appropriate for use in the home. All requirements of the definition must be met before an item can be considered to be durable medical equipment. The following describes the underlying policies for determining whether an item meets the definition of DME and may be covered. A. Durability An item is considered durable if it can withstand repeated use, i.e., the type of item that could normally be rented. Medical supplies of an expendable nature, such as incontinent pads, lambs wool pads, catheters, ace bandages, elastic stockings, surgical "
+      }
+    ],
+    "top_rerank": 0.9147,
+    "metric_correct": false
+  },
+  {
+    "kind": "in_scope",
+    "idx": 6,
+    "query": "Do coverage rules address replacement of prosthetic devices?",
+    "expect_answer": "prosthetic",
+    "expect_substring": "replacement of prosthetic devices",
+    "answer_found": true,
+    "answer": "Yes, coverage rules address replacement of prosthetic devices.",
+    "quote": "",
+    "cited": [
+      {
+        "n": 2,
+        "source": "cms_bp102c15_benefit-policy-ch15.pdf",
+        "text": "Refer to the Medicare Claims Processing Manual, Chapter 14, \u201cAmbulatory Surgical Centers,\u201d for more information. 3. Limitation on Coverage of Conventional Lenses One pair of conventional eyeglasses or conventional contact lenses furnished after each cataract surgery with insertion of an IOL is covered. C. Dentures Dentures are excluded from coverage. However, when a denture or a portion of the denture is an integral part (built -in) of a covered prosthesis (e.g., an obturator to fill an opening in the palate), it is covered as part of that prosthesis. D. Supplies, Repairs, Adjustments, and Replacement Supplies are covered that are necessary for the effective use of a prosthetic device (e.g., the batteries needed to operate an artificial larynx). Adjustment of prosthetic devices required by wear or by a change in the patient\u2019s condition is covered when ordered by a physician. General prov"
+      },
+      {
+        "n": 3,
+        "source": "cms_bp102c15_benefit-policy-ch15.pdf",
+        "text": "and replacement of prosthetic devices are applicable. (See the Medicare Benefit Policy Manual, Chapter 16, \u201cGeneral Exclusions from Coverage,\u201d \u00a740.4, for payment for devices replaced under a warranty.) Replacement of conventional eyeglasses or contact lenses furnished in accordance with \u00a7120.B.3 is not covered. Necessary supplies, adjustments, repairs, and replacements are covered even when the device had been in use before the user enrolled in Part B of the program, so long as the device continues to be medically required. 130 - Leg, Arm, Back, and Neck Braces, Trusses, and Artificial Legs, Arms, and Eyes (Rev. 1, 10- 01-03) B3-2133, A3- 3110.5, HO -228.5, AB -01-06 dated 1/18/01 These appliances are covered under Part B when furnished incident to physicians\u2019 services or on a physician\u2019s order. A brace includes rigid and semi -rigid devices which are used for the purpose of supporting a"
+      }
+    ],
+    "top_rerank": 0.9472,
+    "metric_correct": true
+  },
+  {
+    "kind": "in_scope",
+    "idx": 7,
+    "query": "Does Medicare address service contracts for durable medical equipment?",
+    "expect_answer": "service contracts",
+    "expect_substring": "contracts for durable medical equipment",
+    "answer_found": false,
+    "answer": "Medicare does not address service contracts for durable medical equipment.",
+    "quote": "",
+    "cited": [],
+    "top_rerank": 0.3992,
+    "metric_correct": true
+  },
+  {
+    "kind": "in_scope",
+    "idx": 8,
+    "query": "After how many months of continuous rental does ownership of capped rental equipment pass to the beneficiary?",
+    "expect_answer": "13 months",
+    "expect_substring": "continuous use of 13 months",
+    "answer_found": true,
+    "answer": "After 13 months of continuous rental, ownership of the equipment transfers to the beneficiary.",
+    "quote": "",
+    "cited": [
+      {
+        "n": 1,
+        "source": "_sample_dme.txt",
+        "text": "nitial coverage is limited to a 90 days trial period, after which continued coverage requires documentation that the patient is adherent to therapy and that the device is providing clinical benefit. Hospital beds. A hospital bed is covered when the patient's condition requires positioning in ways not feasible in an ordinary bed, or requires the head of the bed to be elevated more than 30 degrees to alleviate a documented medical condition such as congestive heart failure or chronic pulmonary disease. Capped rental items. Certain DME is paid on a capped rental basis. After 13 months of continuous rental, ownership of the equipment transfers to the beneficiary, and no further rental payments are made by the program."
+      },
+      {
+        "n": 2,
+        "source": "cms_clm104c20_claims-ch20-dmepos.pdf",
+        "text": "\u2022 items requiring frequent and substantial servicing; \u2022 customized items; \u2022 parenteral/enteral nutritional supplies and equipment; and \u2022 intraocular lenses. Other than these exceptions, A/B MACs (A), (B), (HHH), and DME MACs pay the fee schedule amounts for prosthetic and orthotic devices on a lump-sum purchase basis. 30.5 - Capped Rental Items (Rev. 1, 10-01-03) For these items of DME, A/B MACs (HHH) and DME MACs pay the fee schedule amounts on a monthly rental basis not to exceed a period of continuous use of 15 months. In the tenth month of rental, the beneficiary is given a purchase option (see \u00a730.5.2 ). If the purchase option is exercised, A/B MACs (HHH) and DME MACs continue to pay rental fees not to exceed a period of continuous use of 13 months and ownership of the equipment passes to the beneficiary. If the purchase option is not exercised, A/B M ACs (HHH) and DME MACs continue"
+      }
+    ],
+    "top_rerank": 0.999,
+    "metric_correct": true
+  },
+  {
+    "kind": "in_scope",
+    "idx": 9,
+    "query": "Until when do MACs pay for this equipment on a rental basis?",
+    "expect_answer": "medical necessity ends",
+    "expect_substring": "rental basis until medical necessity ends",
+    "answer_found": true,
+    "answer": "MACs pay for this equipment on a rental basis until medical necessity ends.",
+    "quote": "",
+    "cited": [
+      {
+        "n": 1,
+        "source": "cms_clm104c20_claims-ch20-dmepos.pdf",
+        "text": "ounts on a rental basis until medical necessity ends. MACs cannot pay for purchase of this type of equipment. 30.2.1 - Daily Payment for Continuous Passive Motion (CPM) Devices (Rev. 1, 10- 01-03)"
+      },
+      {
+        "n": 4,
+        "source": "cms_clm104c20_claims-ch20-dmepos.pdf",
+        "text": "al charge for the used purchased equipment . 30.1.2 - Transcutaneous Electrical Nerve Stimulator (TENS) (Rev. 2605, Issued: 11- 30-12, Effective: 06 -08-12, Implementation: 01- 07-13) In order to permit an attending physician time to determine whether the purchase of a TENS is medically appropriate for a particular patient, MACs pay 10 percent of the purchase price of the item for each of 2 months. The purchase price and payment for maintenance and servicing are determined under the same rules as any other frequently purchased item, except that there is no reduction in the allowed amount for purchase due to the two months rental. Effective June 8, 2012, CMS will allow coverage for TENS use in the treatment of chronic low back pain (CLBP) only under specific conditions which are described in the NCD Manual, Pub. 100- 03, chapter 1 Section 160.27. 30.2 - Items Requiring Frequent and Substa"
+      }
+    ],
+    "top_rerank": 0.9834,
+    "metric_correct": true
+  },
+  {
+    "kind": "in_scope",
+    "idx": 10,
+    "query": "When is an Advance Beneficiary Notification required for an upgrade?",
+    "expect_answer": "ABN",
+    "expect_substring": "Advance Beneficiary Notification (ABN) is required",
+    "answer_found": false,
+    "answer": "",
+    "quote": "",
+    "cited": [],
+    "top_rerank": 0.1543,
+    "metric_correct": false
+  },
+  {
+    "kind": "in_scope",
+    "idx": 11,
+    "query": "What form documents medical necessity for certain DMEPOS items?",
+    "expect_answer": "Certificate of Medical Necessity",
+    "expect_substring": "Certificate of Medical Necessity",
+    "answer_found": true,
+    "answer": "The Certificate of Medical Necessity (CMN) form documents medical necessity for certain DMEPOS items.",
+    "quote": "",
+    "cited": [
+      {
+        "n": 1,
+        "source": "cms_clm104c20_claims-ch20-dmepos.pdf",
+        "text": "50 - Payment for Replacement of Equipment (Rev. 11414; Issued: 05-12- 22; Effective: 06 -13-22; Implementation: 06-13-22) NOTE: CMS seeks to reduce burden and modernize processes to ensure a reduction in improper payments and an increase in customer satisfaction. The Certificate of Medical Necessity (CMN) form and DME Information Form (DIF) were originally required to help document the medical necessity and other coverage criteria for selected Durable Medical Equipment, Prosthetics, Orthotics, and Supplies (DMEPOS) items. In the past, a supplier received a signed CMN from the treating physician or created and signed a DIF to submit with the claim. Due to improvements in claims processing and medical records management, the information found on CMNs or DIFs is available either on the claim or in the medical record and is redundant. Therefore, to reduce burden and increase customer satisfa"
+      },
+      {
+        "n": 2,
+        "source": "cms_clm104c20_claims-ch20-dmepos.pdf",
+        "text": "ts stop because the beneficiary dies, his/her estate is responsible to the supplier for such unpaid balance. 100 - General Documentation Requirements (Rev. 11414; Issued: 05-12- 22; Effective: 06 -13-22; Implementation: 06-13-22) NOTE: CMS seeks to reduce burden and modernize processes to ensure a reduction in improper payments and an increase in customer satisfaction. The Certificate of Medical Necessity (CMN) form and DME Information Form (DIF) were originally required to help document the medical necessity and other coverage criteria for selected Durable Medical Equipment, Prosthetics, Orthotics, and Supplies (DMEPOS) items. In the past, a supplier received a signed CMN from the treating physician or created and signed a DIF to submit with the claim. Due to improvements in claims processing and medical records management, the information found on CMNs or DIFs is available either on th"
+      },
+      {
+        "n": 3,
+        "source": "cms_clm104c20_claims-ch20-dmepos.pdf",
+        "text": "Unless specified otherwise the instructions in this chapter apply to both providers and suppliers, and to the A/B MACs (A), (B), (HHH), and DME MACs that process their claims. 10 - Where to Bill DMEPOS and PEN Items and Services (Rev. 11414; Issued: 05-12- 22; Effective: 06 -13-22; Implementation: 06-13-22) NOTE: CMS seeks to reduce burden and modernize processes to ensure a reduction in improper payments and an increase in customer satisfaction. The Certificate of Medical Necessity (CMN) form and DME Information Form (DIF) were originally required to help document the medical necessity and other coverage criteria for selected Durable Medical Equipment, Prosthetics, Orthotics, and Supplies (DMEPOS) items. In the past, a supplier received a signed CMN from the treating physician or created and signed a DIF to submit with the claim. Due to improvements in claims processing and medical reco"
+      },
+      {
+        "n": 4,
+        "source": "cms_clm104c20_claims-ch20-dmepos.pdf",
+        "text": "40.1 - General 40.2 - Maintenance and Service of Capped Rental Items 40.3 - Maintenance and Service of PEN Pumps 50 - Payment for Replacement of Equipment 50.1 - Payment for Replacement of Capped Rental Items 50.2 - A/B MAC (A) or (HHH) Format for Durable Medical Equipment, Prosthetic, Orthotic and Supply Fee Schedul e 50.3 - Payment for Replacement of Parenteral and Enteral Pumps 50.4 - Payment for Replacement of Oxygen Equipment in Bankruptcy Situations 50.5 \u2013 Payment of a Part of a DMEPOS Item 60 - Payment for Delivery and Service Charges for Durable Medical Equipment 80 - Penalty Charges for Late Payment Not Included in Reasonable Charges or Fee Schedule Amounts 90 - Payment for Additional Expenses for Deluxe Features 100 - General Documentation Requirements 100.1 - Written Order Prior to Delivery 100.1.1 - Written Order Prior to Delivery - HHAs 100.2 - Certificates of Medical Necess"
+      }
+    ],
+    "top_rerank": 0.996,
+    "metric_correct": true
+  },
+  {
+    "kind": "in_scope",
+    "idx": 12,
+    "query": "What is an originating site in Medicare telehealth?",
+    "expect_answer": "location",
+    "expect_substring": "originating site is the location where a patient",
+    "answer_found": true,
+    "answer": "An originating site is the location where a patient gets physician or practitioner medical services through telehealth.",
+    "quote": "",
+    "cited": [
+      {
+        "n": 1,
+        "source": "cms_mln901705_telehealth-services.pdf",
+        "text": "MLN Booklet Telehealth & Remote Monitoring MLN901705 December 2025 Page 4 of 14We pay for specific Medicare Part B services that a physician or practitioner provides via 2-way, interactive technology (or telehealth). Telehealth substitutes for an in-person visit and permits communication between the practitioner and patient. During the COVID-19 public health emergency (PHE), we used emergency waivers and other regulatory authorities so you could provide more services to your patients via telehealth. Visit the CMS Telehealth webpage for the latest information. It\u2019s intended to help physicians, practices, and health systems navigate changes to Medicare telehealth policy. The COVID-19 PHE ended at the end of the day on May 11, 2023. View Infectious diseases for a list of waivers and flexibilities that were in place during the PHE. Originating Site An originating site is the location where a"
+      },
+      {
+        "n": 3,
+        "source": "cms_mln901705_telehealth-services.pdf",
+        "text": "MLN Booklet Telehealth & Remote Monitoring MLN901705 December 2025 Page 5 of 14There are no geographic restrictions for: \u25cfTreatment of a substance use disorder \u25cfDiagnosis and treatment of mental health disorders \u25cfHome dialysis for ESRD patients \u25cfDiagnosis and treatment of acute stroke The Health Resources and Services Administration (HRSA) decides HPSAs, and the Census Bureau decides MSAs. To see a potential Medicare telehealth originating site\u2019s payment eligibility, go to the HRSA\u2019s Medicare Telehealth Payment Eligibility Analyzer . At the end of each CY, an originating site\u2019s geographic eligibility is based on the area\u2019s status. This eligibility continues for a full CY. Authorized originating sites include: \u25cfPhysician and practitioner offices \u25cfHospitals \u25cfCritical access hospitals (CAHs) \u25cfRural health clinics (RHCs) \u25cfFederally Qualified Health Centers (FQHCs) \u25cfHospital-based or CAH-base"
+      }
+    ],
+    "top_rerank": 0.9931,
+    "metric_correct": true
+  },
+  {
+    "kind": "in_scope",
+    "idx": 13,
+    "query": "What does remote physiological monitoring involve?",
+    "expect_answer": "physiologic",
+    "expect_substring": "non-face-to-face technology",
+    "answer_found": true,
+    "answer": "Remote physiological monitoring involves using non-face-to-face technology to monitor and analyze a patient's physiological metrics.",
+    "quote": "",
+    "cited": [
+      {
+        "n": 1,
+        "source": "cms_mln901705_telehealth-services.pdf",
+        "text": "MLN Booklet Telehealth & Remote Monitoring MLN901705 December 2025 Page 12 of 14Remote Monitoring Remote monitoring allows a patient to collect their own health data (for example, blood pressure) using a connected medical device that automatically transmits the data to their provider. The provider then uses this data to treat or manage the patient\u2019s condition. Remote monitoring includes both remote physiological monitoring and remote therapeutic monitoring (RTM). \u25cfRemote physiological monitoring involves using non-face-to-face technology to monitor and analyze a patient\u2019s physiological metrics. Examples of physiological metrics include: \u25cfOxygen saturation \u25cfBlood pressure \u25cfBlood sugar or blood oxygen levels \u25cfWeight loss or gain \u25cfRTM captures non-physiological data, which can be self-reported, related to a therapeutic treatment. This includes data on a patient\u2019s musculoskeletal or respirat"
+      }
+    ],
+    "top_rerank": 0.9927,
+    "metric_correct": true
+  },
+  {
+    "kind": "in_scope",
+    "idx": 14,
+    "query": "Can a distant site provider use audio-only technology for telehealth?",
+    "expect_answer": "audio-only",
+    "expect_substring": "audio-only technology",
+    "answer_found": true,
+    "answer": "No",
+    "quote": "",
+    "cited": [
+      {
+        "n": 1,
+        "source": "cms_mln901705_telehealth-services.pdf",
+        "text": "MLN Booklet Telehealth & Remote Monitoring MLN901705 December 2025 Page 7 of 14Telehealth Requirements Technology You must use 2-way, interactive, audio-video technology that allows for communication between the patient and distant site provider. As of January 1, 2025, you may also use 2-way, interactive, audio-only technology if the distant site provider is technically capable of using an audio-video telehealth system and the patient is in their home but isn\u2019t capable of, or doesn\u2019t consent to, using video technology. For behavioral or mental telehealth, you may use 2-way, interactive, audio-only technology, and the patient must be in their home. Behavioral & Mental Health You must conduct an in-person visit within 6 months of the initial telehealth visit and annually thereafter. See the exception to this requirement at 42 CFR 410.78(b)(3)(xiv)(B) . Visit the CMS Telehealth webpage for "
+      }
+    ],
+    "top_rerank": 0.9991,
+    "metric_correct": false
+  },
+  {
+    "kind": "in_scope",
+    "idx": 15,
+    "query": "What does RTM stand for in remote monitoring?",
+    "expect_answer": "RTM",
+    "expect_substring": "remote therapeutic monitoring (RTM)",
+    "answer_found": true,
+    "answer": "RTM stands for Remote Therapeutic Monitoring.",
+    "quote": "",
+    "cited": [
+      {
+        "n": 1,
+        "source": "cms_mln901705_telehealth-services.pdf",
+        "text": "MLN Booklet Telehealth & Remote Monitoring MLN901705 December 2025 Page 12 of 14Remote Monitoring Remote monitoring allows a patient to collect their own health data (for example, blood pressure) using a connected medical device that automatically transmits the data to their provider. The provider then uses this data to treat or manage the patient\u2019s condition. Remote monitoring includes both remote physiological monitoring and remote therapeutic monitoring (RTM). \u25cfRemote physiological monitoring involves using non-face-to-face technology to monitor and analyze a patient\u2019s physiological metrics. Examples of physiological metrics include: \u25cfOxygen saturation \u25cfBlood pressure \u25cfBlood sugar or blood oxygen levels \u25cfWeight loss or gain \u25cfRTM captures non-physiological data, which can be self-reported, related to a therapeutic treatment. This includes data on a patient\u2019s musculoskeletal or respirat"
+      }
+    ],
+    "top_rerank": 0.9813,
+    "metric_correct": true
+  },
+  {
+    "kind": "in_scope",
+    "idx": 16,
+    "query": "Which providers are eligible to bill Medicare for telehealth services?",
+    "expect_answer": "Physicians",
+    "expect_substring": "eligible to bill Medicare for telehealth services",
+    "answer_found": true,
+    "answer": "Physicians, physician assistants, nurse practitioners, clinical nurse specialists, clinical psychologists, clinical social workers, registered dietitians or nutrition professionals, certified registered nurse anesthetists, marriage and family therapists, and mental health counselors are eligible to bill Medicare for telehealth services.",
+    "quote": "",
+    "cited": [
+      {
+        "n": 1,
+        "source": "cms_mln901705_telehealth-services.pdf",
+        "text": "MLN Booklet Telehealth & Remote Monitoring MLN901705 December 2025 Page 6 of 14Distant Site A distant site is the location where a physician or practitioner provides telehealth. Before the COVID-19 PHE, only certain types of distant site providers could provide and be paid for telehealth. Visit the CMS Telehealth webpage for the latest information. These providers are eligible to bill Medicare for telehealth services: \u25cfPhysicians \u25cfPhysician assistants \u25cfNurse practitioners \u25cfClinical nurse specialists \u25cfClinical psychologists \u25cfClinical social workers \u25cfRegistered dietitians or nutrition professionals \u25cfCertified registered nurse anesthetists \u25cfMarriage and family therapists \u25cfMental health counselors Note: All distant site providers are subject to state licensing requirements. We require a separate Medicare enrollment for each state where the practitioner provides services. Practice Location En"
+      }
+    ],
+    "top_rerank": 0.9995,
+    "metric_correct": true
+  },
+  {
+    "kind": "out_of_scope",
+    "idx": 1,
+    "query": "What is the Medicare Part D late enrollment penalty?",
+    "expect_answer": "",
+    "expect_substring": "",
+    "answer_found": false,
+    "answer": "",
+    "quote": "",
+    "cited": [],
+    "top_rerank": 0.2088,
+    "metric_correct": null
+  },
+  {
+    "kind": "out_of_scope",
+    "idx": 2,
+    "query": "When is the annual Medicare open enrollment period?",
+    "expect_answer": "",
+    "expect_substring": "",
+    "answer_found": false,
+    "answer": "",
+    "quote": "",
+    "cited": [],
+    "top_rerank": 0.0165,
+    "metric_correct": null
+  },
+  {
+    "kind": "out_of_scope",
+    "idx": 3,
+    "query": "Is bariatric surgery covered by Medicare?",
+    "expect_answer": "",
+    "expect_substring": "",
+    "answer_found": false,
+    "answer": "The passages do not contain information specifically about bariatric surgery coverage by Medicare.",
+    "quote": "",
+    "cited": [],
+    "top_rerank": 0.916,
+    "metric_correct": null
+  },
+  {
+    "kind": "out_of_scope",
+    "idx": 4,
+    "query": "How much does it cost to rent a hospital bed per month in dollars?",
+    "expect_answer": "",
+    "expect_substring": "",
+    "answer_found": false,
+    "answer": "",
+    "quote": "",
+    "cited": [],
+    "top_rerank": 0.0182,
+    "metric_correct": null
+  },
+  {
+    "kind": "out_of_scope",
+    "idx": 5,
+    "query": "What is the specific dollar reimbursement rate for a telehealth visit?",
+    "expect_answer": "",
+    "expect_substring": "",
+    "answer_found": false,
+    "answer": "",
+    "quote": "",
+    "cited": [],
+    "top_rerank": 0.0246,
+    "metric_correct": null
+  },
+  {
+    "kind": "out_of_scope",
+    "idx": 6,
+    "query": "Does Medicare Part D cover insulin?",
+    "expect_answer": "",
+    "expect_substring": "",
+    "answer_found": true,
+    "answer": "Medicare Part D covers insulin.",
+    "quote": "",
+    "cited": [
+      {
+        "n": 1,
+        "source": "cms_clm104c20_claims-ch20-dmepos.pdf",
+        "text": " 1833(a) of the Act is amended by Section 11407 of the Inflation Reduction Act, which requires that beneficiary coinsurance for a month\u2019s supply of insulin furnished through an item of durable medical equipment is not"
+      }
+    ],
+    "top_rerank": 0.665,
+    "metric_correct": null
+  },
+  {
+    "kind": "out_of_scope",
+    "idx": 7,
+    "query": "What is the capital of France?",
+    "expect_answer": "",
+    "expect_substring": "",
+    "answer_found": false,
+    "answer": "",
+    "quote": "",
+    "cited": [],
+    "top_rerank": 0.0012,
+    "metric_correct": null
+  }
+]

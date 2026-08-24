@@ -1,0 +1,7 @@
+{"query": "What are the device requirements for remote physiologic monitoring?", "expect_source": "_sample_rpm.txt", "expect_substring": "medical device as defined by the FDA", "expect_answer": "FDA"}
+{"query": "How many days of data must RPM devices collect to bill 99454?", "expect_source": "_sample_rpm.txt", "expect_substring": "16 days", "expect_answer": "16 days"}
+{"query": "Who can furnish RPM services?", "expect_source": "_sample_rpm.txt", "expect_substring": "physician or other qualified health care professional", "expect_answer": "physician"}
+{"query": "What arterial blood gas value qualifies a patient for home oxygen?", "expect_source": "_sample_dme.txt", "expect_substring": "arterial blood gas", "expect_answer": "55 mm Hg"}
+{"query": "How long is the initial CPAP trial period?", "expect_source": "_sample_dme.txt", "expect_substring": "90 days", "expect_answer": "90 days"}
+{"query": "Is a face-to-face encounter required for some DME items?", "expect_source": "_sample_dme.txt", "expect_substring": "face-to-face encounter", "expect_answer": "face-to-face"}
+{"query": "When does ownership of capped rental DME transfer to the patient?", "expect_source": "_sample_dme.txt", "expect_substring": "13 months", "expect_answer": "13 months"}

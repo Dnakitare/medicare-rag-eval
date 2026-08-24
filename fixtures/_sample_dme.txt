@@ -1,0 +1,13 @@
+SYNTHETIC FIXTURE — not real CMS guidance. For smoke-testing the pipeline only.
+
+Durable Medical Equipment (DME) — Coverage Summary
+
+Face-to-face encounter requirement. For certain DME items, the ordering practitioner must document a face-to-face encounter with the patient within the six months prior to writing the order. The encounter must address the clinical condition for which the equipment is prescribed, and the documentation must be available to the supplier on request.
+
+Home oxygen therapy. Coverage of home oxygen requires documentation of hypoxemia. A qualifying arterial blood gas value at or below 55 mm Hg, or an oxygen saturation at or below 88 percent, measured at rest while breathing room air, establishes medical necessity. Testing must be performed by a qualified provider under conditions specified in the policy.
+
+Continuous positive airway pressure (CPAP) devices. CPAP is covered for patients with a diagnosis of obstructive sleep apnea confirmed by a qualifying sleep study. Initial coverage is limited to a 90 days trial period, after which continued coverage requires documentation that the patient is adherent to therapy and that the device is providing clinical benefit.
+
+Hospital beds. A hospital bed is covered when the patient's condition requires positioning in ways not feasible in an ordinary bed, or requires the head of the bed to be elevated more than 30 degrees to alleviate a documented medical condition such as congestive heart failure or chronic pulmonary disease.
+
+Capped rental items. Certain DME is paid on a capped rental basis. After 13 months of continuous rental, ownership of the equipment transfers to the beneficiary, and no further rental payments are made by the program.
