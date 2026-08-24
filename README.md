@@ -62,15 +62,25 @@ show how each number was produced and what was measured, not to run as-is.
 **The metric's floor is not zero.** Scored with the harness's own rule
 (`expect_answer.lower() in answer.lower()`):
 
-| condition | correct |
-|---|---|
-| empty string | 0/16 |
-| stub that restates the question | 6/16 |
-| 1.5B, no retrieval | 5/16 |
-| 7B, no retrieval | 10/16 |
-| 1.5B fine-tuned, with retrieval | 10/16 |
-| top-1 retrieved chunk pasted verbatim, no generation | 15/16 |
-| full pipeline, 7B | 15/16 |
+| condition | harness | correct |
+|---|---|---|
+| empty string | n/a | 0/16 |
+| stub that restates the question | n/a | 6/16 |
+| 1.5B, no retrieval | `closed_book.py` | 5/16 |
+| 7B, no retrieval | `closed_book.py` | 10/16 |
+| top-1 retrieved chunk pasted verbatim, no generation | retrieval only | 15/16 |
+| 1.5B fine-tuned, with retrieval | FT harness, raw prompt | 10/16 |
+| 1.5B base, with retrieval | FT harness, raw prompt | 15/16 |
+| 7B, with retrieval | FT harness, raw prompt | 15/16 |
+| 7B, real structured pipeline | `grading_dump.py` | 12/16 |
+
+**These are not all one experiment.** Three different scripts produced these rows and only
+the ones sharing a harness are directly comparable. The structured pipeline scores lower
+than the raw-prompt path because it can abstain and because its terse answers miss the
+literal expected string; that gap is the point of the hand grading below, not a regression.
+The `grading_dump.json` in this repo is the structured-pipeline run, so 12/16 is the number
+you can reproduce from published data. The 15/16 rows come from a fine-tuning comparison
+whose per-item outputs were not retained.
 
 **Hand grading disagrees with the metric.** On the 16 in-scope items the metric
 scored 12 correct and a human scored 13, disagreeing on 3 in both directions.
