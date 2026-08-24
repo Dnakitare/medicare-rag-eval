@@ -24,17 +24,19 @@ for kind, rows in (("in_scope", ins), ("out_of_scope", oos)):
             if 1 <= n <= len(a.passages):
                 p = a.passages[n - 1]
                 cited_txt.append({"n": n, "source": p.get("source", "?"),
-                                  "text": p.get("text", "")[:900]})
+                                  "text": p.get("text", "")})
         top = max([p["_rerank_score"] for p in a.passages if "_rerank_score" in p] or [0.0])
         rec = {
             "kind": kind, "idx": i, "query": q,
             "expect_answer": exp, "expect_substring": g.get("expect_substring", ""),
             "answer_found": bool(a.answer_found),
             "answer": txt,
-            "quote": getattr(a, "quote", "") or "",
+            "quote": a.supporting_quote or "",
             "cited": cited_txt,
             "top_rerank": round(top, 4),
             "metric_correct": (exp.lower() in txt.lower()) if exp else None,
+            "quote_verbatim": bool(a.supporting_quote) and any(
+                a.supporting_quote.lower() in (c["text"] or "").lower() for c in cited_txt),
         }
         out.append(rec)
         print(f"{kind[:3]} {i:2}  found={rec['answer_found']}  metric={rec['metric_correct']}  {q[:50]}", flush=True)

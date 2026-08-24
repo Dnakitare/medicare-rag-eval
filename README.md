@@ -39,8 +39,8 @@ smoke-test fixture rather than from CMS. Each file says so on its first line.
 
 Six of the sixteen `expect_answer` strings appear verbatim in their own `query`
 (`medical purpose`, `prosthetic`, `service contracts`, `physiologic`, `audio-only`,
-`RTM`). That is the leak the essay's baseline section is about, and you can confirm
-it in one pass over the file.
+`RTM`). That leak is why a stub which merely restates the question scores 6/16 on the metric below.
+The essay does not cover the baseline work; it is here and in `eval/RESULTS.md`.
 
 ## Scripts
 
@@ -82,9 +82,14 @@ The `grading_dump.json` in this repo is the structured-pipeline run, so 12/16 is
 you can reproduce from published data. The 15/16 rows come from a fine-tuning comparison
 whose per-item outputs were not retained.
 
+**The system quotes, and 2 of its quotes are fabricated.** 15 of 23 answers fill the
+`supporting_quote` field; 13 of those 15 appear verbatim in a cited passage. The other two are
+paraphrases presented as quotations, with a correct citation attached. See `quote_verbatim` in
+`eval/grading_dump.json`.
+
 **Hand grading disagrees with the metric.** On the 16 in-scope items the metric
 scored 12 correct and a human scored 13, disagreeing on 3 in both directions.
-The essay reports those three individually. No agreement statistic is quoted,
+The essay does not enumerate them; `eval/grading_dump.json` has every item's output. No agreement statistic is quoted,
 because at n=16 with these marginals none of them supports anything: a bootstrap
 of Cohen's kappa spans [-0.14, 1.00]. The human grading was also not blinded to
 the metric's verdict, which anchors it.
